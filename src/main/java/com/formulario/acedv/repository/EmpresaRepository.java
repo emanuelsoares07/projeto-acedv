@@ -1,8 +1,9 @@
 package com.formulario.acedv.repository;
 
+import com.formulario.acedv.orm.EmpresaEntity;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
 @Repository
-public interface EmpresaRepository extends JpaRepository<com.formulario.acedv.orm.EmpresaOrm, Long> {
+public interface EmpresaRepository extends JpaRepository<EmpresaEntity, Long> {
 }

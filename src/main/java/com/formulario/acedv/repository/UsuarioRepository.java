@@ -1,9 +1,9 @@
 package com.formulario.acedv.repository;
 
-import com.formulario.acedv.orm.UsuarioOrm;
+import com.formulario.acedv.orm.UsuarioEntity;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
 @Repository
-public interface UsuarioRepository extends JpaRepository<UsuarioOrm, Long> {
+public interface UsuarioRepository extends JpaRepository<UsuarioEntity, Long> {
 }
